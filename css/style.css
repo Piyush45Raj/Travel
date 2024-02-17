@@ -518,7 +518,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color: #524f4f;
 }
 
 .blockquote-footer::before {
@@ -592,6 +592,8 @@ pre code {
   overflow-y: scroll;
 }
 
+
+
 .container,
 .container-fluid,
 .container-sm,
@@ -599,6 +601,29 @@ pre code {
 .container-lg,
 .container-xl {
   width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid-t{
+  
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid-l{
+  width: 74%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 5%;
+}
+.container-fluid-m{
+  width: 85%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -3973,6 +3998,7 @@ input[type="button"].btn-block {
   margin-top: -1px;
 }
 
+
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
@@ -5839,12 +5865,13 @@ a.close.disabled {
 .carousel.pointer-event {
   touch-action: pan-y;
 }
-
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 80%;
   overflow: hidden;
+  margin: 0 auto; 
 }
+
 
 .carousel-inner::after {
   display: block;
